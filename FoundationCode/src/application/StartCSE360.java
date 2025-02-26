@@ -37,9 +37,9 @@ public class StartCSE360 extends Application {
 	        databaseHelper.connectToDatabase();
 	        // Directly show QuestionApp for testing:
 	       //new QuestionApp(databaseHelper).show(primaryStage);
-	        //new QuestionsApp().start(primaryStage);
+	        new QuestionsApp().start(primaryStage);
 	        //new AnswerApp().start(primaryStage);
-	        new AnswersApp().start(primaryStage);
+	        //new QuestionApp(databaseHelper).show(primaryStage);
 
 	    } catch (SQLException e) {
 	        System.out.println(e.getMessage());
